@@ -342,7 +342,43 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
+.address-container{
+  background-color: #c8e2ee;
+  border-radius: 10px;
+}
+.address-container-div{
+  display: flex;
+  justify-content: center;
+}
+.address-container-div img {
+  border-radius: 10px;
+  
+}
+#skills{
+  background-color: #d5f5f6de;
+}
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  background-color: #d5f476;
+  border-radius: 30px;
+  padding-top: 15px;
+  color: #ed0d0d;
+}
+/* .skills-container ul{
+  padding-right: 20px;
+  
+} */
+.skills-container ul li{
+  list-style: none;
+}
+.skills-container ul li span {
+  margin-right: 20px;
+}
+#resume{
+  background-color: #caf4f6de;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
